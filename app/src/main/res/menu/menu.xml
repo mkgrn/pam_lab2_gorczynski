@@ -6,8 +6,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
+
     <item android:id="@+id/action_about"
-        android:title="O programie"
+        android:title="@string/about_program_activity"
         android:orderInCategory="100"
         app:showAsAction="never"
         />

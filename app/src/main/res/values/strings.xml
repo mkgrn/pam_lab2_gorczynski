@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">BookWeb</string>
+    <string name="app_name">Book Master</string>
+    <string name="about_program_activity">O programie</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_bookweb">Strona Główna</string>
+    <string name="menu_matematyka">Matematyka</string>
+    <string name="menu_informatyka">Informatyka</string>
+    <string name="menu_elektronika">Elektronika</string>
+
+    <string name="home_second">Home Second</string>
 </resources>

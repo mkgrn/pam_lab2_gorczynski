@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.widget.Toolbar;
 
 public class AboutProgramActivity extends AppCompatActivity {
 
@@ -19,4 +18,5 @@ public class AboutProgramActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("O programie");
     }
 }
+
 

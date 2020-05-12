@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bookweb">
+
+    <fragment
+        android:id="@+id/nav_bookweb"
+        android:name="pl.gorczynski.bookweb.ui.BookWeb.BookWebFragment"
+        android:label="@string/menu_bookweb"
+        tools:layout="@layout/fragment_bookweb" />
+
+    <fragment
+        android:id="@+id/nav_matematyka"
+        android:name="pl.gorczynski.bookweb.ui.matematyka.MatematykaFragment"
+        android:label="@string/menu_matematyka"
+        tools:layout="@layout/fragment_matematyka" />
+
+    <fragment
+        android:id="@+id/nav_informatyka"
+        android:name="pl.gorczynski.bookweb.ui.informatyka.InformatykaFragment"
+        android:label="@string/menu_informatyka"
+        tools:layout="@layout/fragment_informatyka" />
+
+    <fragment
+        android:id="@+id/nav_elektronika"
+        android:name="pl.gorczynski.bookweb.ui.elektronika.ElektronikaFragment"
+        android:label="@string/menu_elektronika"
+        tools:layout="@layout/fragment_elektronika" />
+</navigation>

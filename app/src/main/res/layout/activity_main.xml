@@ -7,15 +7,13 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:layout_width="409dp"
         android:layout_height="150px"
 
 
         android:layout_marginTop="20dp"
-        android:gravity="center_horizontal"
-        android:text="Witaj!"
+        android:text="Witaj"
         android:textAlignment="center"
         android:textSize="100px"
         android:textStyle="bold"
@@ -23,13 +21,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.126" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="21dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="208dp"
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="156dp"
         android:text="1. Czytaj książki"
         android:textSize="40px"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,20 +36,24 @@
 
     <ImageView
 
-        android:layout_width="43dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="192dp"
-        android:src="@mipmap/ic_library"
+        android:layout_width="86dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/library_books"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/go_forward_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="396dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="476dp"
         android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
         android:text="OK, DALEJ!"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,19 +62,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="43dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="256dp"
-        android:src="@mipmap/ic_book"
+        android:layout_width="84dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/comment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="21dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="340dp"
         android:text="2. Zostaw komentarz"
         android:textSize="40px"
         app:layout_constraintStart_toStartOf="parent"

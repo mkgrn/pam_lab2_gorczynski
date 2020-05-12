@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("pl.gorczynski.bookweb", appContext.getPackageName());
+        assertEquals("pl.wiski.bookweb", appContext.getPackageName());
     }
 }

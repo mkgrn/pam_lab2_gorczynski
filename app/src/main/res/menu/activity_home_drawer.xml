@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_bookweb"
+            android:title="BookWeb" />
+        <item
+            android:id="@+id/nav_matematyka"
+            android:title="@string/menu_matematyka" />
+        <item
+            android:id="@+id/nav_informatyka"
+            android:title="@string/menu_informatyka" />
+        <item
+            android:id="@+id/nav_elektronika"
+            android:title="@string/menu_elektronika" />
+    </group>
+</menu>
